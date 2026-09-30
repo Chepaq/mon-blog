@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS : les bases d'un design propre — Mon Blog</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><a href="../index.html">Mon Blog</a></h1>
+      <nav>
+        <a href="../index.html">Accueil</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container article-page">
+    <h1>CSS : les bases d'un design propre</h1>
+    <p class="meta">30 septembre 2026</p>
+
+    <p>Un bon design ne nécessite pas forcément un framework. Voici quelques principes simples pour un rendu élégant en CSS pur.</p>
+
+    <h2>1. Un reset minimal</h2>
+    <p>Supprimer les marges par défaut du navigateur et utiliser <code>box-sizing: border-box</code> évite 90 % des surprises de mise en page.</p>
+
+    <h2>2. Des variables CSS</h2>
+    <p>Les custom properties (<code>--accent</code>, <code>--text</code>, etc.) permettent de centraliser couleurs et espacements. On change une valeur, tout le site suit.</p>
+
+    <h2>3. Mobile-first</h2>
+    <p>On style d'abord pour petit écran, puis on ajoute des <code>@media (min-width: ...)</code> pour les écrans plus larges. Le contenu reste lisible partout.</p>
+
+    <h2>4. Une largeur de lecture confortable</h2>
+    <p>Limiter le conteneur à ~760px et utiliser une police serif à 1.7 de line-height offre une lecture agréable, comme dans un livre.</p>
+
+    <a href="../index.html" class="retour">&larr; Retour à l'accueil</a>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Mon Blog. Propulsé par GitHub Pages.</p>
+    </div>
+  </footer>
+</body>
+</html>
